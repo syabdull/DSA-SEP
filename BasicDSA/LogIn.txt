@@ -1,0 +1,5 @@
+//what is log n 
+
+// How many times we have to divide the number to reduce it to 1 is called log base number
+// fro example if we have 12, 6(1),3(2),1(3)  , it will take 3 iteration
+//every time the number will be reduced to its half
