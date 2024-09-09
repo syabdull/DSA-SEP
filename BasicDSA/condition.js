@@ -1,13 +1,19 @@
-//working with if  and else and working with nested  if and else
+//find the smallest of three numbers of find the greatest of three numbers
 
-//check the given number is odd  or even
-
-function isEven(n) {
-  if (n % 2 == 0) {
-    return true;
+function findSmallest(a, b, c) {
+  if (a < b) {
+    if (a < c) {
+      return a;
+    } else {
+      return c;
+    }
   } else {
-    return false;
+    if (b < c) {
+      return b;
+    } else {
+      return c;
+    }
   }
 }
 
-console.log(isEven(10));
+console.log(findSmallest(10, 12, 8));
